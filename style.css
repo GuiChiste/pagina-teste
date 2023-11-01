@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+
+header{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.marcas{
+    position: relative;
+    top: 15vh;
+}
+
+
+
+.container h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.container h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}

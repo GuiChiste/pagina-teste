@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar-expand-md navbar bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/logo.svg"
+                            alt="Logo"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img class="p-2" src="images/icon-todo.svg"
+                                            alt="">Todo List</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img class="p-2" src="images/icon-calendar.svg"
+                                            alt="">Calendar</a></li>
+                                <li><a class="dropdown-item" href="#"><img class="p-2" src="images/icon-reminders.svg"
+                                            alt="">Reminders</a></li>
+                                <li><a class="dropdown-item" href="#"><img class="p-2" src="images/icon-planning.svg"
+                                            alt="">Planning</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <form class="justify-content-start">
+                        <button type="button" class="btn btn-light bg-transparent ">Login</button>
+                        <button type="button" class="btn btn-light bg-transparent">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--informativo--> 
+    <div class= "d-flex row">
+        <div class="col-6 p-5">
+            <h1>
+                Make<br>
+                remote work
+            </h1>
+            <h2>
+                Get your team in sync, no matter your location.<br>
+                Streamline processes, create team rituals, and<br>
+                watch productivity soar.
+            </h2>
+            <button type="button" class="btn btn-secondary btn-lg bg-black">Learn More</button>
+            <div class="marcas">
+                <img class="p-3" src="images/client-databiz.svg" alt="logo databiz">
+                <img class="p-3" src="images/client-audiophile.svg" alt="logo autophile">
+                <img class="p-3" src="images/client-meet.svg" alt="logo meet">
+                <img class="p-3" src="images/client-maker.svg" alt="logo maker">
+            </div>
+        </div>
+
+        <div class="image col-6 d-flex justify-content-center align-items-center">
+            <img class=" d-none d-md-block d-xl-block img-fluid h-50" src="images/image-hero-desktop.png"
+                alt="principal image">
+            <img class="d-md-none d-xl-none" src="images/image-hero-mobile.png" alt="principal img mobile">
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
