@@ -23,8 +23,7 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/logo.svg"
-                            alt="Logo"></h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/logo.svg" alt="Logo"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -73,9 +72,10 @@
         </div>
     </nav>
 
-    <!--informativo--> 
-    <div class= "d-flex row">
-        <div class="col-6 p-5">
+    <!--hidden-->
+    <div class="cell container row d-flex d-md-none d-xl-none ">
+        <img class="d-md-none d-xl-none h-auto" src="images/image-hero-mobile.png" alt="principal img mobile">
+        <div class="text">
             <h1>
                 Make<br>
                 remote work
@@ -85,8 +85,33 @@
                 Streamline processes, create team rituals, and<br>
                 watch productivity soar.
             </h2>
-            <button type="button" class="btn btn-secondary btn-lg bg-black">Learn More</button>
-            <div class="marcas">
+            <button type="button" class="btn btn-dark btn-lg">Learn More</button>
+            <div class="logos">
+                <img class="p-4" src="images/client-databiz.svg" alt="logo databiz">
+                <img class="p-4" src="images/client-audiophile.svg" alt="logo autophile">
+                <img class="p-4" src="images/client-meet.svg" alt="logo meet">
+                <img class="p-4" src="images/client-maker.svg" alt="logo maker">
+            </div>
+        </div>
+
+        <div class="images">
+            <img class=" d-none d-md-block d-xl-block h-auto" src="images/image-hero-desktop.png" alt="principal image">
+        </div>
+    </div>
+     <!--informativo-->
+     <div class="desktop-j container d-flex ">
+        <div class="text1">
+            <h1>
+                Make<br>
+                remote work
+            </h1>
+            <h2>
+                Get your team in sync, no matter your location.<br>
+                Streamline processes, create team rituals, and<br>
+                watch productivity soar.
+            </h2>
+            <button type="button" class="btn btn-dark btn-lg">Learn More</button>
+            <div class="logos">
                 <img class="p-3" src="images/client-databiz.svg" alt="logo databiz">
                 <img class="p-3" src="images/client-audiophile.svg" alt="logo autophile">
                 <img class="p-3" src="images/client-meet.svg" alt="logo meet">
@@ -94,10 +119,8 @@
             </div>
         </div>
 
-        <div class="image col-6 d-flex justify-content-center align-items-center">
-            <img class=" d-none d-md-block d-xl-block img-fluid h-50" src="images/image-hero-desktop.png"
-                alt="principal image">
-            <img class="d-md-none d-xl-none" src="images/image-hero-mobile.png" alt="principal img mobile">
+        <div class="images">
+            <img class=" d-none d-md-block d-xl-block h-auto" src="images/image-hero-desktop.png" alt="principal image">
         </div>
     </div>
 
